@@ -8,7 +8,7 @@
 [![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Download](https://api.bintray.com/packages/javendev/maven/JPay/images/download.svg)](https://bintray.com/javendev/maven/JPay/_latestVersion)
 
-[版本更新记录](https://github.com/Javen205/JPay/wiki/%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E8%AE%B0%E5%BD%95)
+[版本更新记录](https://github.com.javen.jpay/wiki/%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E8%AE%B0%E5%BD%95)
 
 
 **使用方法**
@@ -16,7 +16,7 @@
 ### 1、引入
 
 ```
-compile 'com.javen205.jpay:jpaysdk:latest.release.here'
+compile 'com.javen.jpay:jpaysdk:latest.release.here'
 ```
 
 ### 2. Android Manifest配置
@@ -37,14 +37,14 @@ compile 'com.javen205.jpay:jpaysdk:latest.release.here'
 ```
  <!-- 微信支付 -->
         <activity
-            android:name="com.javen205.jpay.weixin.WXPayEntryActivity"
+            android:name="com.javen.jpay.weixin.WXPayEntryActivity"
             android:configChanges="orientation|keyboardHidden|navigation|screenSize"
             android:launchMode="singleTop"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
         <activity-alias
             android:name=".wxapi.WXPayEntryActivity"
             android:exported="true"
-            android:targetActivity="com.javen205.jpay.weixin.WXPayEntryActivity" />
+            android:targetActivity="com.javen.jpay.weixin.WXPayEntryActivity" />
         <!-- 微信支付 end -->
 
 

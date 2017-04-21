@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pay_3rd_bg"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="53.0dip" >
+
+        <TextView
+            android:id="@+id/title_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="会员大礼包"
+            android:textColor="#ff333333"
+            android:textSize="17.0sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/close_btn"
+            android:layout_width="17.0dip"
+            android:layout_height="17.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="13.0dip"
+            android:layout_marginTop="13.0dip"
+            android:background="@drawable/pay_3rd_close" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="#ffcccccc"
+        tools:ignore="contentDescription" />
+
+    <RelativeLayout
+        android:id="@+id/content_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="87.0dip"
+        android:background="#fff7f7f7" >
+
+        <TextView
+            android:id="@+id/content_get_time_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13.0dip"
+            android:layout_marginTop="18.0dip"
+            android:text="购买商品"
+            android:textColor="#ff333333"
+            android:textSize="16.0sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/content_get_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="67.0dip"
+            android:layout_marginTop="18.0dip"
+            android:layout_toRightOf="@id/content_get_time_txt"
+            android:text=""
+            android:textColor="#ff333333"
+            android:textSize="16.0sp" />
+
+        <TextView
+            android:id="@+id/content_get_pay_money_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/content_get_time_txt"
+            android:layout_marginLeft="13.0dip"
+            android:layout_marginTop="14.0dip"
+            android:text="需要金额"
+            android:textColor="#ff333333"
+            android:textSize="16.0sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/content_get_pay_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/content_get_time_txt"
+            android:layout_marginLeft="67.0dip"
+            android:layout_marginTop="14.0dip"
+            android:layout_toRightOf="@id/content_get_pay_money_txt"
+            android:text=""
+            android:textColor="#ffee1111"
+            android:textSize="16.0sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="41.0dip"
+        android:layout_marginLeft="13.0dip"
+        android:gravity="center_vertical"
+        android:text="选择支付方式"
+        android:textColor="#ff808080"
+        android:textSize="15.0sp"
+        tools:ignore="HardcodedText" />
+
+    <!-- 支付宝 -->
+
+    <RelativeLayout
+        android:id="@+id/sel_zfb_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="53.0dip"
+        android:background="#fff7f7f7" >
+
+        <ImageView
+            android:id="@+id/zfb_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13.0dip"
+            android:background="@drawable/pay_3rd_zfb"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:id="@+id/zfb_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="17.0sp"
+            android:layout_toRightOf="@id/zfb_icon"
+            android:text="支付宝支付"
+            android:textColor="#ff333333"
+            android:textSize="15.0sp"
+            tools:ignore="HardcodedText" />
+
+        <RadioButton
+            android:id="@+id/zfb_radBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13.0dip"
+            android:button="@drawable/pay_3rd_radio_sel"
+            android:checked="true" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:layout_alignParentBottom="true"
+            android:background="#ffcccccc"
+            tools:ignore="contentDescription" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sel_wx_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="53.0dip"
+        android:background="#fff7f7f7" >
+
+        <ImageView
+            android:id="@+id/wx_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13.0dip"
+            android:background="@drawable/pay_3rd_wx"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:id="@+id/wx_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="17.0sp"
+            android:layout_toRightOf="@id/wx_icon"
+            android:text="微信支付"
+            android:textColor="#ff333333"
+            android:textSize="15.0sp"
+            tools:ignore="HardcodedText" />
+
+        <RadioButton
+            android:id="@+id/wx_radBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13.0dip"
+            android:button="@drawable/pay_3rd_radio_sel" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:layout_alignParentBottom="true"
+            android:background="#ffcccccc"
+            tools:ignore="contentDescription" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/comfirm_btn"
+        android:layout_width="200.0dip"
+        android:layout_height="40.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20.0dip"
+        android:layout_marginTop="13.0dip"
+        android:background="@drawable/pay_3rd_comfirm_sel"
+        android:text="确认支付"
+        android:textColor="#ffffffff"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

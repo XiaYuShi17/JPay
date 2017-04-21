@@ -1,31 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    >
+    android:paddingTop="@dimen/activity_vertical_margin" >
 
-    <Button
-        android:id="@+id/testWxPay"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="微信支付测试"
-        android:layout_centerInParent="true"
-        android:onClick="testWxPay"/>
+        android:text="@string/hello_world"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/id_et"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入支付金额"
+        android:text="100"
+        tools:ignore="HardcodedText"
+        />
+
 
     <Button
-        android:id="@+id/alipay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="toPay"
+        android:text="各种支付"
+        tools:ignore="HardcodedText"
+        android:textColor="#ffffffff"
+        android:background="@drawable/pay_3rd_comfirm_sel"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="weixinPay"
+        android:text="微信App支付测试"
+        tools:ignore="HardcodedText"
+        android:textColor="#ffffffff"
+        android:background="@drawable/pay_3rd_comfirm_sel"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="aliPay"
         android:text="支付宝App支付测试"
-        android:layout_below="@+id/testWxPay"
-        android:layout_centerInParent="true"
-        android:onClick="testAliPay"/>
+        tools:ignore="HardcodedText"
+        android:textColor="#ffffffff"
+        android:background="@drawable/pay_3rd_comfirm_sel"/>
 
-</RelativeLayout>
+
+
+</LinearLayout>
