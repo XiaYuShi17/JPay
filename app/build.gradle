@@ -70,5 +70,4 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile project(':jpay')
     /*compile 'com.javen205.jpay:jpaysdk:0.0.2'*/
-
 }
