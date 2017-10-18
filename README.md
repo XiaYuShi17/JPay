@@ -7,7 +7,7 @@
 
 [![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![](https://jitpack.io/v/javen205/JPay.svg)](https://jitpack.io/#javen205/JPay)
-[![IJPay Author](https://img.shields.io/badge/IJPay%20Author-Javen-ff69b4.svg)](http://blog.csdn.net/zyw_java)
+[![JPay Author](https://img.shields.io/badge/IJPay%20Author-Javen-ff69b4.svg)](http://blog.csdn.net/zyw_java)
 
 
 
@@ -17,6 +17,13 @@ Gitee:http://gitee.com/Javen205/JPay
 
 [版本更新记录](https://github.com/Javen205/JPay/wiki/%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E8%AE%B0%E5%BD%95)
 
+**联系方式**
+
+[![QQ0Group][qq0groupsvg]][qq0group]
+[![Email](https://img.shields.io/badge/Email-javendev%40126.com-yellowgreen.svg)](http://blog.csdn.net/zyw_java)
+
+[qq0groupsvg]: https://img.shields.io/badge/QQ群-148540125-fba7f9.svg
+[qq0group]: http://shang.qq.com/wpa/qunwpa?idkey=5005dbbee62dac64b34fedc9ff73511762da5d02642a1ef526522fb2e07852dd
 
 **使用方法**
 
