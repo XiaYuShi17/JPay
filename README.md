@@ -7,7 +7,7 @@
 
 [![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![](https://jitpack.io/v/javen205/JPay.svg)](https://jitpack.io/#javen205/JPay)
-[![JPay Author](https://img.shields.io/badge/IJPay%20Author-Javen-ff69b4.svg)](http://blog.csdn.net/zyw_java)
+[![JPay Author](https://img.shields.io/badge/JPay%20OR%20IJPay%20Author-Javen-ff69b4.svg)](http://blog.csdn.net/zyw_java)
 
 
 
