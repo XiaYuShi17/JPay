@@ -41,11 +41,11 @@ Step 1. Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 ```
-compile 'com.github.javen205.JPay:IJPay:latest.release.here'
+compile 'com.github.javen205.JPay:JPay:latest.release.here'
 ```
 例如：版本号为`0.0.4`
 ```
-compile 'com.github.javen205.JPay:IJPay:0.0.4'
+compile 'com.github.javen205.JPay:JPay:0.0.4'
 ```
 ### 2. Android Manifest配置
 
